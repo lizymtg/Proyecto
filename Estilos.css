@@ -1,0 +1,155 @@
+/*Fuentes agregadas + estilos de toda la pagina predetermidados*/
+@font-face{
+	font-family: 'titulo';
+	src:url(techno_hideo.ttf);
+}
+
+@font-face{
+	font-family: 'SubTitu';
+	src:url(8-bit-pusab.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Century Gothic';
+}
+/*---*/
+
+/*para los contenidos de informacion*/
+h2{
+	font-family: 'SubTitu';
+	font-size: 15px;
+	padding: 10px;
+	color: red;
+}
+
+p{	/*parrafos con fondo negro*/
+	border-radius: 10px;
+	margin: 0 40px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0,.5);
+}
+
+body{/*para fondo y color de fuente predeterminado*/
+	color: white;
+	background: -webkit-linear-gradient(to bottom right,rgba(0, 0, 0), rgba(38, 11, 82 ), rgba(0, 0, 0)); 
+	background: -moz-linear-gradient(to bottom right,rgba(0, 0, 0), rgba(38, 11, 82 ), rgba(0, 0,0));
+	background: linear-gradient(to bottom right,rgba(0, 0, 0), rgba(38, 11, 82 ), rgba(0, 0, 0));
+}
+
+section{/*separacion de paddin para el cuerpo del html*/
+	padding: 5% 20%;
+}
+
+	/*Secciona los parrafos y agrega una linea*/
+#contenido{
+	border-bottom:solid 1px white;
+}
+/*---*/
+
+
+/*Cabecera*/
+	h1{
+		text-shadow: rgba(104, 75, 238,.3) -10px 10px;
+		font-family: 'titulo';
+		padding: 150px 40px;
+		font-size: 6.5em;
+		color: #ffffff;
+	}
+
+	header {
+	    background-image: url(recursos/Fondo.jpg);
+	    background-size: 100%;
+	    background-repeat: no-repeat; 
+	    background-attachment: fixed;
+	    height: 28em;
+	    padding: 0; 
+	    margin: 0; 
+	}
+
+	#fondo{
+	    background: -webkit-radial-gradient(center, circle,rgba(255,255,255,.1),rgba(0,0,0,.7)); /
+	    background: -moz-radial-gradient(center, circle,rgba(255,255,255,.1),rgba(0,0,0,.7));
+	    background: gradient(center, circle,rgba(255,255,255,.1),rgba(0,0,0,.7));
+	    height: 28em;
+	}
+		/*Menu*/
+		nav {
+		    margin: 0; 
+		    padding: 0 2.5%; 
+		    position: relative;
+		}
+
+		ol {
+		    list-style-type: none;
+		    margin: 0; 
+		    display: inline-block;
+		    padding: 0;
+		    position: relative;
+		}
+
+		li{
+		font-size: 14px;
+		color: white;
+		background-color: rgba(255, 255, 255,.5);
+		float: none;
+		text-align: center;
+		display: inline-block;
+		width: 135px;
+		height: 50px;
+		line-height: 40px; 
+		}
+
+		li:hover{
+		background-color: #E6C5FF;
+		}
+		/*---*/
+
+/*---*/
+
+
+/*Imagenes y recursos*/
+.recurso{
+	flex: center;
+	width: 600px;
+	margin: 5% 10%;
+}
+
+#datos {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+#datos img {
+	margin: 5%;
+	padding:2%;
+	border-radius: 100%;
+	width: 10%;
+	background-color: rgba(50, 25, 129 ,.8);
+	box-shadow: rgba(9, 29, 89,.8) 20px 20px;
+
+}
+	/*parrafos con imagen*/
+		#DataAna {
+			width: 95%;
+			margin: 3em;
+		}
+
+		#DataAna img {
+			width: 150px;
+			margin: 10px;
+			float: left;
+			background-color: 0;
+			box-shadow: none;
+		}
+
+		#DataAna p {
+			text-align: justify;
+		}
+	/*---*/
+/*---*/
+
+
+
