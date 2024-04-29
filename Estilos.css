@@ -59,7 +59,7 @@ section{/*separacion de paddin para el cuerpo del html*/
 	}
 
 	header {
-	    background-image: url(recursos/Fondo.jpg);
+	    background-image: url(Fondo.jpg);
 	    background-size: 100%;
 	    background-repeat: no-repeat; 
 	    background-attachment: fixed;
